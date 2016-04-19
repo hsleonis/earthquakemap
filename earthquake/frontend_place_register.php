@@ -62,11 +62,6 @@ function place_register(){
 					
 			);
 			
-			/*$term_id = term_exists($_POST['category'], 'place_category');
-			if($term_id!==null){
-				$place['tax_input'] = array( 'place_category' => array($term_id['term_id']));
-			}*/
-			
 			$placeID = wp_insert_post( $place, true );
             
             if($attachment_id!=0)
