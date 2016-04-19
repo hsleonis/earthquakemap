@@ -1,0 +1,26 @@
+i.wpb_vc_param_value{
+	opacity:0;
+	height: 2px;
+	overflow: hidden;
+	display: block;
+}
+
+span.admin_label_subcontent{
+	    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+}
+
+span.admin_label_content{
+	display: block;
+}
+
+span.admin_label_content:after{
+	display: block;
+	content:"";
+	clear:both;
+}
+
+.vc_admin_label{
+	word-break: break-word;
+}

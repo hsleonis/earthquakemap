@@ -1,0 +1,11 @@
+.field-border-bottom{
+	border-bottom:1px solid #eee !important;
+	padding-bottom:20px !important;
+	padding-left:30px !important;
+}
+
+.field-border-top{
+	margin-top:20px !important;
+	padding-left:30px !important;
+	border-top:1px solid #eee !important;
+}
